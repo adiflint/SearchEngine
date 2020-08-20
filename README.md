@@ -29,14 +29,16 @@ java version: java 1.8
 * Click start to run processing the corpus
 ### Part B-
 * Press browse button to select an index path
-* If the stemming option was selected on the corpus in part A,than select the stemming option again.
+* If the stemming option was selected on the corpus in part A,than select the stemming option again
 * Press 'load Dictionary' button to load the dictionary to the memory
-* Type query in the Query text area, you can enable semantic option and press search or press browse button to select an text file path to enter some queries together, you can enable semantic optionan and press search button. -Now, wait until the searching process is finish, it will show you the results.
-If you would like to choose document to see its entities. close the results window
+* Type query in the Query text area, you can enable semantic option and press search or browse button to select an text file path to enter some queries together.
+* Wait until the searching process is finish and it will show you the results.
+* If you would like to choose document to see its most common entities - close the results window
 and choose a query from choice menu, choose a document (according its id) from choice menu and press 'Get Entities' button.
 * If you would like to save the results, press browse button near the text field of 'Save the results at:' to select a path to save it, and press 'save' button.
-POST PROCESSING
 * Reset button : clicking this button will delete all content in the selected posting files path
 * Load dictionary : will load the term dictionary to memory
 * Show dictionary : shows all the unique terms in the corpus with this total tf
+
+## Enjoy!
 
