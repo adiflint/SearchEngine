@@ -9,9 +9,7 @@ The project divided into two parts:
 * Reading files from a given corpus. Each file contains 100 to 1000 documents written in xml form.
 * Segmenting the files into documents , then Parsing batches of 50000 documents, one by one. 
 * Create a token from each unique word or phrase.
-* Indexing the tokens of each batch:
-
- creating posting files and writing information about the tokens into them: a token's frequency in the document, most frequent token in a document, etc.
+* Indexing the tokens of each batch: creating posting files and writing information about the tokens into them: a token's frequency in the document, most frequent token in a document, etc.
 * In addition, I create a file containing information about all the parsed documents and a united tokens dictionary for the entire corpus.
 ### Part B - search and rank
 * First, loading the posting files and dictionaries generated in part A. The dictionaries are restored and loaded into memory.
