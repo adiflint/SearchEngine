@@ -6,7 +6,7 @@ The project divided into two parts:
 
 ### Part A - read, parse and index a large corpus contains over 500,000 documents. It includes the following process:
 
-* Reading files from a given corpus. Each file cotains 100-1000 documents written in xml form.
+* Reading files from a given corpus. Each file contains 100 to 1000 documents written in xml form.
 * Segmenting them into documents Parsing the corpus in batches of 50000 documents, one by one. 
 * The parsing could be executed with or without stemming
 * Indexing the terms of each batch: creating posting files and writing information about the terms into them.
