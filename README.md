@@ -1,17 +1,17 @@
 # Search Engine
-### INTRODUCTION
+## INTRODUCTION
 This is My Search Engine Project.
 
 This project divided into two parts:
 
-## Part A - read, parse and index a large corpus contains over 500,000 documents. It includes the following process:
+### Part A - read, parse and index a large corpus contains over 500,000 documents. It includes the following process:
 
 * Reading files from a given corpus. Each file cotains 100-1000 documents written in xml form.
 * Segmenting them into documents Parsing the corpus in batches of 50000 documents, one by one. 
 * The parsing could be executed with or without stemming
 * Indexing the terms of each batch: creating posting files and writing information about the terms into them.
 In addition, I create a file containing information about all the parsed documents and a united dictionary for the entire corpus.
-## Part B - search and rank
+### Part B - search and rank
 Loading the posting files and dictionaries generated in part A The dictionaries are restored and loaded into memory.
 After entering a query:
 The query is parsed.
@@ -19,9 +19,9 @@ Its term objects are reconstructed from the dictionary
 If semantics is enabled the query terms are sent to the semantics model.
 The query terms and semantics terms (if enabled) are sent to the ranker who finds the 50 most relevant documents.
 
-## INFO
+### INFO
 java version: java 1.8
-## OPERATIONS
+### OPERATIONS
 # Part A-
 Run the project jar file
 Select a corpus path in the first text area by pressing browse
