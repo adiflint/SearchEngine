@@ -23,7 +23,7 @@ After the user enters a query:
 java version: java 1.8
 ## OPERATIONS
 ### Part A-
-* Run the project jar file
+* Download and run "TheProject3" jar file
 * Select a corpus path in the first text area by pressing browse
 * Select a posting files path
 * Click start to run processing the corpus
