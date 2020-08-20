@@ -24,13 +24,13 @@ java version: java 1.8
 ## OPERATIONS
 ### Part A-
 * Download and run "TheProject3" jar file
-* Select a corpus path in the first text area by pressing browse
-* Select a posting files path
-* Click start to run processing the corpus
+* Select a corpus path
+* Select a path for saving all the posting files that will be created
+* Click 'Start indexing' for indexing the corpus
 ### Part B-
-* Press browse button to select an index path
+* Select the path to the posting files  (second text area) 
 * If the stemming option was selected on the corpus in part A,than select the stemming option again
-* Press 'load Dictionary' button to load the dictionary to the memory
+* Press 'load Dictionary into memory' button to load the dictionary to the memory
 * Type query in the Query text area, you can enable semantic option and press search or browse button to select an text file path to enter some queries together.
 * Wait until the searching process is finish and it will show you the results.
 * If you would like to choose document to see its most common entities - close the results window
