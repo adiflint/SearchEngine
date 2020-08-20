@@ -1,7 +1,7 @@
 # Search Engine
 ## INTRODUCTION
-This is my Search Engine Project that involved parsing and indexing a large text corpus of files, developing core logic to retrieve relevant documents with specific rank
-and includes a GUI to allow users to query the engine. 
+This is my Search Engine Project that involved parsing and indexing a large text corpus of files, developing core logic to retrieve relevant documents with specific rank.
+Includes a GUI to allow users to query the engine. 
 The project divided into two parts:
 
 ### Part A - read, parse and index a large corpus contains over 500,000 documents. It includes the following process:
