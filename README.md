@@ -19,15 +19,15 @@ Its term objects are reconstructed from the dictionary
 If semantics is enabled the query terms are sent to the semantics model.
 The query terms and semantics terms (if enabled) are sent to the ranker who finds the 50 most relevant documents.
 
-### INFO
+## INFO
 java version: java 1.8
-### OPERATIONS
-# Part A-
+## OPERATIONS
+### Part A-
 Run the project jar file
 Select a corpus path in the first text area by pressing browse
 Select a posting files path
 Click start to run processing the corpus
-# Part B-
+### Part B-
 Press browse button to select an index path
 If the stemming option was selected on the corpus in part A,than select the stemming option again.
 Press 'load Dictionary' button to load the dictionary to the memory
