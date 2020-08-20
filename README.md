@@ -1,23 +1,25 @@
 # Search Engine
 ## INTRODUCTION
 This is my Search Engine Project that involved parsing and indexing a large text corpus of files, developing core logic to retrieve relevant documents with specific rank
-and includes a GUI to allow the user to run queries. 
+and includes a GUI to allow users to query the engine. 
 The project divided into two parts:
 
 ### Part A - read, parse and index a large corpus contains over 500,000 documents. It includes the following process:
 
 * Reading files from a given corpus. Each file contains 100 to 1000 documents written in xml form.
-* Segmenting them into documents Parsing the corpus in batches of 50000 documents, one by one. 
-* The parsing could be executed with or without stemming
-* Indexing the terms of each batch: creating posting files and writing information about the terms into them.
-In addition, I create a file containing information about all the parsed documents and a united dictionary for the entire corpus.
+* Segmenting the files into documents , then Parsing batches of 50000 documents, one by one. 
+* Create a token from each unique word or phrase.
+* Indexing the tokens of each batch:
+
+ creating posting files and writing information about the tokens into them: a token's frequency in the document, most frequent token in a document, etc.
+* In addition, I create a file containing information about all the parsed documents and a united tokens dictionary for the entire corpus.
 ### Part B - search and rank
-Loading the posting files and dictionaries generated in part A The dictionaries are restored and loaded into memory.
-After entering a query:
-The query is parsed.
-Its term objects are reconstructed from the dictionary
-If semantics is enabled the query terms are sent to the semantics model.
-The query terms and semantics terms (if enabled) are sent to the ranker who finds the 50 most relevant documents.
+* First, loading the posting files and dictionaries generated in part A. The dictionaries are restored and loaded into memory.
+After the user enters a query:
+* The query is parsed into tokens like in part A.
+* The tokens objects are reconstructed from the dictionary.
+* If semantics checkbox is enabled the query tokens are sent to the semantics model.
+* The query tokes and semantics tokens (if enabled) are sent to the ranker who finds the 50 most relevant documents for the query.
 
 ## INFO
 java version: java 1.8
