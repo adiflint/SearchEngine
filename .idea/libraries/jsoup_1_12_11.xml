@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsoup-1.12.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resource/jsoup-1.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resource/medallia-word2vec-0.10.2-jar-with-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
