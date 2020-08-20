@@ -4,14 +4,14 @@ This is My Search Engine Project.
 
 This project divided into two parts:
 
-Part A - read, parse and index a large corpus contains over 500,000 documents
-
-It includes the following process:
+## Part A - read, parse and index a large corpus contains over 500,000 documents. It includes the following process:
 
 * Reading files from a given corpus
 * segmenting them into documents Parsing the corpus in batches of 50000 documents, one by one. 
 * The parsing could be executed with or without stemming
-* Indexing the terms of each batch: creating posting files and writing information about the terms into them. In addition, we create a file containing information about all the parsed documents and a united dictionary for the entire corpus. Part B - search and rank
+* Indexing the terms of each batch: creating posting files and writing information about the terms into them.
+In addition, I create a file containing information about all the parsed documents and a united dictionary for the entire corpus.
+## Part B - search and rank
 Loading the posting files and dictionaries generated in part A The dictionaries are restored and loaded into memory.
 After entering a query:
 The query is parsed.
